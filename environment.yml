@@ -1,0 +1,16 @@
+name: fenics
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - fenics-dolfinx=0.5.2
+  - gmsh
+  - ipykernel
+  - tqdm
+  - cmasher
+  - pandas
+  - scipy
+  - pip:
+    - pygmsh
